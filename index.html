@@ -36,8 +36,8 @@
         const today = new Date();
         const currentDayOfWeek = daysOfWeek[today.getUTCDay()];
         const currentUTCTimeMillis = Date.now(); 
-        document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = `Current Day of the Week: ${currentDayOfWeek}`;
-        document.querySelector('[data-testid="currentUTCTime"]').textContent = `Current UTC Time (milliseconds): ${currentUTCTimeMillis}`;
+        document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = `${currentDayOfWeek}`;
+        document.querySelector('[data-testid="currentUTCTime"]').textContent = `${currentUTCTimeMillis}`;
     </script>
 </body>
 </html>
